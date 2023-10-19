@@ -1,0 +1,25 @@
+import catboost
+from catboost import CatBoostRegressor
+from sklearn.model_selection import GridSearchCV
+
+# Definindo a grade de parâmetros para busca
+param_grid_cb = {
+    'iterations': [12000],
+    'learning_rate': [0.01],
+    'depth': [5],
+    'l2_leaf_reg': [3],
+    'random_seed': [RANDOM_SEED]
+}
+
+# Criando o modelo CatBoost Regressor
+cb_model = CatBoostRegressor()
+
+# Realizando a busca em grade
+grid_search_cb = GridSearchCV(cb_model, param_grid_cb, cv=5, scoring='neg_mean_squared_error', return_train_score=True)
+grid_search_cb.fit(Xtrain, ytrain, verbose=0)  # O parâmetro verbose controla a quantidade de output durante o treinamento
+
+# Obtendo os melhores parâmetros e o melhor score
+best_cb_params = grid_search_cb.best_params_
+best_cb_score = np.sqrt(-grid_search_cb.best_score_)
+
+best_cb_params, best_cb_score
