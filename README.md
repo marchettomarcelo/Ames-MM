@@ -1,4 +1,10 @@
+
 # Projeto de regressão linear para prever o preço de casas em Ames, Iowa
+
+## Dupla
+
+- [Marcelo Rabello Barranco](https://github.com/Maraba23)
+- [Marcelo Marchetto](https://github.com/marchettomarcelo)
 
 ## Descrição do projeto
 
@@ -32,6 +38,10 @@ cd Ames-MM
 
 Dentro da pasta `notebooks`, execute o notebook `01_reading_raw_data`, em seguida o notebook `02_analysis_and_preprocessing`.
 
+- Esses dois notebooks foram feitos pelo professor da matéria, [Fabio Ayres](https://github.com/FabioAyresInsper/ames). Nao foram feitas quaisquer alterações nesses notebooks.
+
 ### Executando o projeto
 
 Dentro da pasta `notebooks`, execute o notebook `entrega`. Este notebook contém o a análise feita pela dupla e a implementação do modelo de machine learning.
+
+- O arquivo `entrega.ipynb` em sua primeira parte foi copiada a regressão linear simples e analise dos dados do professor, a parte realizada pela dupla vem logo após a regressão linear simples. (Explicito conforme os markdowns do notebook). Explicações e Conclusões sobre o que foi feito estão no notebook em formato markdown antes e depois do código.
