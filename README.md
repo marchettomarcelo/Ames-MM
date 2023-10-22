@@ -38,7 +38,7 @@ cd Ames-MM
 
 Dentro da pasta `notebooks`, execute o notebook `01_reading_raw_data`, em seguida o notebook `02_analysis_and_preprocessing`.
 
-- Esses dois notebooks foram feitos pelo professor da matéria, [Fabio Ayres](https://github.com/FabioAyresInsper/ames). Nao foram feitas quaisquer alterações nesses notebooks.
+- Esses dois notebooks foram feitos pelo professor da matéria, [Fabio Ayres](https://github.com/FabioAyresInsper/ames). Nao foram feitas quaisquer alterações nesses notebooks. Optamos por deixar a feature engeneering e a análise dos dados feita pelo professor, pois achamos a analise muito boa e completa, e a feature engeneering muito bem feita e como nao tinhamos muita experiencia com isso, acreditamos que seja mais benéfico preservar o trabalho realizado pelo professor.
 
 ### Executando o projeto
 
